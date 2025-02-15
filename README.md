@@ -24,12 +24,12 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek ini di lin
 
 1. **Clone repositori ini:**
    ```bash
-   git clone https://github.com/username/nama-proyek.git
+   https://github.com/rannx0/sparepart-management-laravel10.git
    ```
 
 2. **Masuk ke direktori proyek:**
    ```bash
-   cd nama-proyek
+   cd sparepart-management-laravel10
    ```
 
 3. **Install dependensi dengan Composer:**
@@ -48,14 +48,14 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek ini di lin
    php artisan key:generate
    ```
 
-6. **Jalankan migrasi dan seeder (opsional untuk data awal):**
+6. **Jalankan migrasi :**
    ```bash
-   php artisan migrate --seed
+   php artisan migrate
    ```
 
-7. **Install dependensi frontend:**
+7. **Jalankan seeder untuk data awal:**
    ```bash
-   npm install && npm run dev
+   php artisan db:seed
    ```
 
 8. **Jalankan server Laravel:**
@@ -64,6 +64,8 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek ini di lin
    ```
    Akses aplikasi melalui `http://127.0.0.1:8000`
 
+
+## Akses halaman backend untuk mengelola data melalui `http://127.0.0.1:8000/login`
 ## Akun Default
 
 | Role     | Email            | Password |
